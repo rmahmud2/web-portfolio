@@ -5,7 +5,13 @@ body {
 h1 {
     font-size: 50px;
 }
-.myself {
+h2 {
+    font-size: 40px;
+}
+p {
+    color: dimgray;
+}
+.orange-highlight {
     color: orange;
 }
 .tophalf {
@@ -23,12 +29,23 @@ h1 {
 }
 section {
     height: 500px;
+    padding-bottom: 150px;
 }
-.hireme {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 40px;
+    border-radius: 4px;
     color: white;
     font-weight: 700px;
+}
+.dreamarea {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h4 {
+    font-size: 40px;
+    text-align: center;
+    color: firebrick;
 }
